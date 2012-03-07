@@ -1,5 +1,5 @@
 { "name": "tokenator"
-, "description": "Token based access control for connect APIs"
+, "description": "Lightweight Connect Middleware access control with tokens"
 , "keywords": ["api", "token", "middleware", "connect"]
 , "main": "./index"
 , "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)"
