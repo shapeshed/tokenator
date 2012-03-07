@@ -1,0 +1,21 @@
+{ "name": "tokenator"
+, "description": "Token based access control for connect APIs"
+, "keywords": ["api", "token", "middleware", "connect"]
+, "main": "./index"
+, "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)"
+, "version": "0.0.1"
+, "engines": { "node": ">= 0.5.0 < 0.7.0" }
+, "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/shapeshed/tokenator.git"}
+, "devDependencies": {
+  "mocha": ">=0.14.1",
+  "connect": ">=2.0.0" }
+, "bugs" : { "url" : "https://github.com/shapeshed/tokenator/issues" }
+, "scripts": { "test": "make test" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "https://github.com/shapeshed/tokenator/raw/master/LICENSE"
+    }
+  ]
+}
