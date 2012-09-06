@@ -1,7 +1,7 @@
-var connect = require('connect')
-  , http = require('http')
-  , assert = require('assert')
-  , tokenator = require('../lib/tokenator');
+var connect = require('connect'),
+    http = require('http'),
+    assert = require('assert'),
+    tokenator = require('../lib/tokenator');
 
 function accessGranted(req, res){
   res.end('Tokenator says yes!');
@@ -57,7 +57,7 @@ describe('Making a get request', function(){
     })
     it('should have an application/json header', function(done){
       http.get( { host: '127.0.0.1', port: '3000' }, function(res){
-        assert.strictEqual(res.headers['content-type'], 'application/json');
+        assert.strictEqual(res.headers['content-type'], 'application/json; charset=utf-8');
         done();
       })
     })
@@ -95,7 +95,7 @@ describe('Making a get request', function(){
           'api-token': 'invalidtoken' 
         } 
       }, function(res){
-        assert.strictEqual(res.headers['content-type'], 'application/json');
+        assert.strictEqual(res.headers['content-type'], 'application/json; charset=utf-8');
         done();
       })
     })
