@@ -9,7 +9,7 @@
   ],
   "main": "./index",
   "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": "*"
   },
