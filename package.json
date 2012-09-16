@@ -7,7 +7,7 @@
     "middleware",
     "connect"
   ],
-  "main": "./index",
+  "main": "./lib/tokenator",
   "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
   "version": "0.0.3",
   "engines": {
