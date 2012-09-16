@@ -25,7 +25,7 @@
     "url": "https://github.com/shapeshed/tokenator/issues"
   },
   "scripts": {
-    "test": "make test"
+    "test": "./node_modules/.bin/mocha"
   },
   "licenses": [
     {
