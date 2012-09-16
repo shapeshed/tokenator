@@ -20,9 +20,9 @@ If a client tries to connect without a token or an invalid token a 401 response 
 
 For [connect][1]
 
-    var connect = require('connect')
-      , http = require('http')
-      , tokenator = require('tokenator');
+    var connect = require('connect'),
+        http = require('http'),
+        tokenator = require('tokenator');
 
     function accessGranted(req, res){
       res.end('Tokenator says yes!');
@@ -35,8 +35,8 @@ For [connect][1]
 
 For [express][3]
 
-    var express = require('express')
-      , tokenator = require('tokenator');
+    var express = require('express'),
+        tokenator = require('tokenator');
 
     var app = module.exports = express.createServer();
 
